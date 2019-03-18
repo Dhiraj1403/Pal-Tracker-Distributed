@@ -2,7 +2,7 @@ applications:
 - name: tracker-registration
   path: ./applications/registration-server/build/libs/registration-server.jar
   routes:
-  - route: dhiraj-registration-pal.pivotal.io
+  - route: dhiraj-registration-pal.cfapps.io
   memory: 1G
   instances: 1
   env:
